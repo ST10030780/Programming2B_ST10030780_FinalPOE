@@ -1,0 +1,15 @@
+﻿<Window x:Class="Programming2B_ST10030780_FinalPOE.MenuWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Menu - Contract Monthly Claim System" Height="300" Width="400">
+    <Grid>
+        <!-- Button to open Lecturer View -->
+        <Button Content="Lecturer View" Width="150" Height="35" Margin="120,50,0,0" Click="OpenLecturerView"/>
+
+        <!-- Button to open Coordinator View -->
+        <Button Content="Coordinator View" Width="150" Height="35" Margin="120,120,0,0" Click="OpenCoordinatorView"/>
+
+        <!-- Button to open HR View -->
+        <Button Content="HR View" Width="150" Height="35" Margin="120,190,0,0" Click="OpenHRView"/>
+    </Grid>
+</Window>

@@ -1,0 +1,18 @@
+﻿<Window x:Class="Programming2B_ST10030780_FinalPOE.HRView"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="HR View - Generate Reports" Height="500" Width="800">
+    <Grid>
+        <!-- Header -->
+        <TextBlock Text="HR View - Generate Reports" FontSize="24" FontWeight="Bold" 
+                   HorizontalAlignment="Center" Margin="0,20,0,0"/>
+
+        <!-- Claim Report Button -->
+        <Button Content="Generate Claims Report" Width="200" Height="35" Margin="200,100,0,0" VerticalAlignment="Top" Click="GenerateClaimsReport_Click"/>
+
+        <!-- Lecturer Data Management Section -->
+        <TextBlock Text="Manage Lecturer Data" FontSize="18" FontWeight="SemiBold" Margin="200,200,0,0" VerticalAlignment="Top"/>
+        <Button Content="Update Lecturer Data" Width="200" Height="35" Margin="200,250,0,0" VerticalAlignment="Top" Click="UpdateLecturerData_Click"/>
+    </Grid>
+</Window>
+ 

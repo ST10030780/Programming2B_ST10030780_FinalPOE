@@ -1,0 +1,17 @@
+﻿<Window x:Class="Programming2B_ST10030780_FinalPOE.CoordinatorView"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Coordinator View - Contract Monthly Claim System" Height="500" Width="800">
+    <Grid>
+        <!-- Header -->
+        <TextBlock Text="Coordinator View - Verify Claims" FontSize="24" FontWeight="Bold" 
+                   HorizontalAlignment="Center" Margin="0,20,0,0"/>
+
+        <!-- Claim List -->
+        <ListBox Name="lstPendingClaims" Margin="50,80,700,300" Background="#F5F5F5"/>
+
+        <!-- Approve/Reject Buttons -->
+        <Button Content="Approve" Width="100" Height="30" Margin="200,400,0,0" VerticalAlignment="Top" Click="ApproveClaim_Click"/>
+        <Button Content="Reject" Width="100" Height="30" Margin="320,400,0,0" VerticalAlignment="Top" Click="RejectClaim_Click"/>
+    </Grid>
+</Window>
